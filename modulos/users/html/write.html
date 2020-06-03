@@ -1,0 +1,40 @@
+<div class="mainTable">
+    <div class="module_subtitle">Propiedades generales</div>
+	<table border="0">
+		<tr>
+		    <td colspan="4">                       
+		        {name}
+		    </td>        				    
+		    <td  colspan="2" width="33%">                        
+		        {sesion_start}
+		    </td>        
+		</tr>   
+	   <tr>
+		    <td width="33%"  colspan="2">
+		        {email}
+		    </td>        
+		    <td>                        
+		        {password}
+		    </td>        
+		    <td width="80">                        
+		        {status}
+		    </td> 		    
+		    <td width="33%"  colspan="2">
+		       	{files_id} 
+		    </td>        
+		</tr>          
+	</table>
+          
+			<div class="form tabs">
+				<ul>
+					<li  class="form"><a href="#tabs-1">Permisos</a></li>
+				
+				</ul>
+				<div id="tabs-1" class="form">{permisos}</div>				
+			</div>
+  <script>
+  $(function() {
+    $( ".tabs" ).tabs();    
+  });
+  </script>        
+</div>

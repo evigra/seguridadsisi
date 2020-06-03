@@ -1,0 +1,512 @@
+*{
+	margin:                 0;
+	padding:                0;
+	list-style:             none;
+    text-decoration:        none;	
+}
+    .cKanban{
+        float:              left; 
+        margin:             5px; 
+        background-color:   white; 
+        border:             1px; 
+        border-radius:      5px 15px 5px 15px;     
+        border-style:       solid; 
+        border-width:       2px; 
+        overflow:           hidden;    
+    }
+
+
+/* ####################################### */
+/* ######      DESKTOP GRANDE       ###### */
+/* ####################################### */
+@media (min-width:1200px)
+{
+    .cKanban{
+        height:             130px; 
+    }
+    .responsive4-1cols
+    {
+        float:              left;
+	    width:				25%;
+    }
+}
+
+
+/* ####################################### */
+/* ######      DESKTOP MEDIO        ###### */
+/* ####################################### */
+@media (max-width:1199px) and (min-width:992px)
+{
+    .cKanban{
+        height:             130px; 
+    }
+    .responsive4-1cols
+    {
+        float:              left;
+	    width:				25%;
+    }
+}
+
+
+/* ####################################### */
+/* ######         TABLETS           ###### */
+/* ####################################### */
+@media (max-width:991px) and (min-width:768px)
+{
+    .cKanban{
+        height:             130px; 
+    }
+
+    .responsive4-1cols
+    {
+        float:              left;
+	    width:				25%;
+    }
+
+}
+
+
+
+/* ####################################### */
+/* ######         MOVILES           ###### */
+/* ####################################### */
+@media (max-width:767px)
+{
+    .cKanban{
+        height:             100px; 
+    }
+    .responsive4-1cols
+    {
+        float:              left;
+	    width:				50%;
+    }
+/*
+    .responsive4-1cols:nth-child(3), .responsive4-1cols:nth-child(4) 
+    {
+        display:                none;
+    }
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*################### Menu ##############*/
+div h1{
+	letter-spacing:         -1px; 
+	font-weight:            50;
+	line-height:            .8;
+}
+div h1 span{
+    display:                block; 
+	font-weight:            1000;
+	color:				    SteelBlue; 
+}
+div p{
+    padding-top:		    15px; 
+	line-height:            1.2;
+}
+
+
+
+.navegacion ul{
+	list-style:             none;
+}
+.menu > li{
+	position:               relative;
+	display:                inline-block;
+}
+.menu > li > a{
+	display:                block;
+	padding:                7px 7px;
+	color:                  #fff;
+	font-family:            'Open sans';
+	text-decoration:        none;
+}
+.menu li a:hover{
+	color:                  #CE7D35;
+	transition:             all .15s;
+}
+/*################### Submenu ##############*/
+.submenu{
+	position:               absolute;
+	background:             #333333;
+	width:                  170%;
+	visibility:             hidden;
+	opacity:                0;
+	transition:             opacity 1.5s;
+}
+.submenu li a{
+	display:                block;
+	padding:                15px 2px 10px 15px;
+	color:                  #fff;
+	font-family:            'Open sans';
+	text-decoration:        none;
+}
+.menu li:hover .submenu{
+	visibility:             visible;
+	opacity:                1;
+}
+
+
+.required
+{
+	background-color:	    #D2D2FF;
+	box-sizing:			    border-box;
+	border-radius:		    6px;
+	height:				    30px;
+}
+
+
+
+
+form
+{
+	height:				    100%; 
+	width:				    100%; 
+}
+#contenedor
+{
+	background-color:       #373737;
+}
+.color1 {
+	background-color:       black;
+}
+.color2 {
+	background-color:       #373737;
+	color:                  white;
+}
+.color3 {
+	background-color:       Gainsboro;
+}
+
+div.report_form table tr td
+{
+	padding-left:		    10px;
+	padding-right:		    10px;
+}
+div.report_form table tr
+{
+	height:				    25px;
+}
+.base_report {
+	height: 			calc(200% -100%);
+	height: 			-moz-calc(100px);
+	height: 			-webkit-calc(100%);
+}
+
+div.view_report_d1 div.view_report_d2 table.view_report_t1 tr td{
+	padding-left:		4px;
+	padding-right:		4px;
+}
+
+div.view_report_d1 div.view_report_d2 table.view_report_t1 tr td table.cBotones tr td.cAction{
+	padding-left:		1px;
+	padding-right:		1px;
+}
+
+
+.module_title {
+	padding-left:		10px; 
+	font-weight:		bold; 
+	font-size:			22; 
+	color:				DimGray;
+}
+
+.module_subtitle{
+	color:				SteelBlue; 
+	font-size:			20; 
+	text-align:			left; 
+	font-weight:		bold; 
+	padding-top:		15px; 
+	padding-bottom:		10px;
+}
+.module_subtitle2{
+	color:				SteelBlue; 
+	font-size:			17; 
+	text-align:			left; 
+	font-weight:		bold;  
+	padding-top:		15px; 
+	padding-bottom:		10px;
+}
+.module_subtitle3{
+	color:				SteelBlue; 
+	font-size:			14; 
+	text-align:			left; 
+	font-weight:		bold; 
+	padding-top:		15px; 
+	padding-bottom:		10px;
+}
+.module_subtitle4{
+	color:				SteelBlue; 
+	font-size:			14; 
+	text-align:			left; 
+	font-weight:		bold; 
+	padding-top:		15px; 
+	padding-bottom:		10px;
+}
+
+
+.submenu2
+{
+	margin:     		4px 15px 4px 15px;
+	color:      		#A4A4A4;
+	font-size:  		12px;
+	padding:    		3px 0px 3px 5px;
+}
+.submenu2_active,
+.submenu2:hover,
+.submenu2:active
+{
+	cursor:     		pointer;
+	color:      		#373737;
+	border-radius: 		15px;
+	background: 		#A4A4A4;   
+	padding:    		3px 0px 3px 20px;
+	margin-left:    	0px;
+	/*font-weight: 		bold;*/
+}
+
+.width
+{
+	border:				0px; 
+	width:				-moz-calc(100% - 50px); 
+	width:				calc(100% - 50px);      
+	max-width: 			1100px;
+	min-height: 		350px;
+}
+
+
+.sombra
+{
+	-webkit-box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+}
+
+
+
+/*
+
+.width
+{
+	border:				0px; 
+	width:				-moz-calc(100% - 50px); 
+	width:				calc(100% - 50px);      
+	max-width: 			1100px;
+	min-height: 		350px;
+	-webkit-box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+
+}
+
+*/
+
+.mainTable
+{
+	text-align:		    left;
+	margin:				15px;
+	padding:			10px;
+	background-color:	white; 
+	border:				1px; 
+	border-radius:		5px 15px 5px 15px;     
+	
+	width:				-moz-calc(100% - 50px); 
+	width:				calc(100% - 50px);      
+	max-width: 			1100px;
+	min-height: 		200px;
+	/*
+	height:				-moz-calc(100% - 50px); 
+	height:				calc(100% - 50px);    
+	*/
+	border: 			1px solid grey;
+
+	-webkit-box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.75);
+}
+
+
+.responsive4-1cols p
+{
+    text-align:         justify;
+    color:              #ddd;
+    margin:             0px 10px;
+}
+.responsive4-1cols div
+{
+    margin:             10px 10px;
+}
+
+td.color1 span
+{
+    color:              #ccc;
+}
+td.color2 > div.responsive4-1cols                     
+{
+    border-top: 			10px solid grey;
+}
+
+text-align: justify;
+
+.alto{height: 			30px;}
+
+
+/* INICIO REPORTE CEBRA ############################################################ */
+table tr.odd,
+.odd {
+	height: 			30px;
+	background: 		#E5E5E5;
+}
+table tr.even,
+.even {
+	height: 			30px;
+	background: 		#D5D5D5;
+}
+table tr.even:hover,
+.even:hover,
+table tr.odd:hover,
+.odd:hover  {
+	height: 			30px;
+	background: 		#AAA;
+}
+/* FIN REPORTE CEBRA ############################################################ */
+
+.formulario{
+	width: 				100%;
+	box-sizing:			border-box;
+	border-radius:		6px;
+	height:				30px;
+}
+.d_none{display:		none;}
+.d_block{display:		block;}
+.mizq{padding-left:	    10px;}
+.mder{padding-right:	10px;}
+.msup{padding-top:	    10px;}
+.minf{padding-bottom:	10px;}
+
+/* INICIO GENERALES ############################################################ */
+body, table, a
+{
+	text-decoration: 	none;
+	font-family: 	   	Verdana, Arial, comic sans ms, Helvetica, sans-serif;
+	text-decoration: 	none;
+	border-collapse: 	collapse;
+	color: 				gray;
+	font-size: 			11px;	
+}
+#menu 
+{
+	z-index:			1000;
+	width:				1035px;
+	position:			absolute;
+	top:				225px;
+	height:				30px;
+}
+
+.menuHorizontal
+{
+	text-decoration:  	none; 
+	color:            	white;
+	float:            	left;
+	padding:          	5px;
+	border:           	1px solid black;  
+	border-radius:    	4px;
+}
+.menuHorizontal:hover
+{
+	text-decoration:  	none; 
+	color:            	#A9F5F2;
+	border-color:     	#58FAF4;
+	cursor:           	pointer;
+}
+
+/* FIN GENERALES ############################################################ */
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Aldrich);
+
+section {				margin: 20px;}
+
+.checkbox-2 input[type=checkbox] {
+	visibility: 		hidden;
+}
+.checkbox-2 {
+	width: 				84px;
+	height: 			30px;
+	/* background: 		rgba(0, 0, 0, 0.16); */
+	border-radius: 		5px;
+	border:           	1px solid gray;
+	position: 			relative;	
+	-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+	box-shadow: 		inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+}
+.checkbox-2:before {
+	content: 			'SI';
+	position: 			absolute;
+	top: 				1;
+	left: 				16px;
+	color: 				gray;
+	font-size: 			15px;
+	line-height: 		25px;
+}
+.checkbox-2:after {
+	content: 			'NO';
+	color: 				gray;
+	position: 			absolute;
+	top: 				3px;
+	right: 				10px;
+	font-size: 			15px;
+	line-height: 		25px;
+}
+.checkbox-2 label { 
+	background: 		#BE0000;    /* ROJO  */
+	display: 			block;
+	width: 				35px;
+	height: 			24px;
+	border-radius: 		5px;
+	transition: 		all .7s ease;
+	cursor: 			pointer;
+	position: 			absolute;
+	top: 				2px;
+	z-index: 			1;
+	left: 				2px;
+}
+.checkbox-2 input[type=checkbox]:checked + label {
+	left: 				48px;
+	background: 		#14640B; 	/* VERDE  */
+}
+.imgBox:hover 
+{ 
+	cursor: 			pointer;
+} 

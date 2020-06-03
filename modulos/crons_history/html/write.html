@@ -1,0 +1,40 @@
+<table class="mainTable">
+    <tr>
+        <td style="padding:10px;">
+
+            <div style="color:SteelBlue; font-size:25; text-align:left; font-weight:bold; padding-top:25px; padding-bottom:10px;">Propiedades generales</div>
+            <table border="0">
+                <tr>
+                    <td width="33%">
+                        {name}
+                    </td>        
+                    <td width="33%">
+                        {count}
+                    </td>        
+                    <td>
+                        {time}
+                    </td>                            
+                </tr>   
+               <tr>
+                    <td width="33%" colspan="3">
+                        {code}
+                    </td>        
+               </tr>          
+            </table>
+            <div style="color:SteelBlue; font-size:25; text-align:left; font-weight:bold; padding-top:25px; padding-bottom:10px;">Ejemplo</div>
+            <table border="0">
+
+               <tr>
+                    <td width="33%" colspan="3" style="color:grey;">
+					
+						include("modulos/positions/modelo.php");		<br>
+						$objeto		=new positions();					<br>
+						$objeto->validate_geofence();					<br>
+                        
+                    </td>        
+                </tr>                        
+            </table>
+
+        </td>
+    </tr>
+</table>

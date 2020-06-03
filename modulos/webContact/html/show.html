@@ -1,0 +1,93 @@
+<div>
+    <div class="container">
+		<div class="header">          
+			<div class="logo">
+				<a href="../WebHome/"><img src="../sitio_web/img/logo.png" alt=" " /></a>
+			</div>
+			<div class="logo-right">
+				<span id = "idMenu" class="menu" >
+				    <img src="images/menu.png" alt=" " />
+				</span>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+
+		
+
+		<div class="contact">     
+            <h3>{find_us}</h3>
+            <div class="car">
+                <span> </span>
+            </div>
+            <div class="contact-grids">
+                <div class="contact-grid">
+                    <h4>{location}</h4>
+                    <p class="dot">MANZANILLO,
+                        <span>COLIMA, MEXICO.</span>
+                </div>
+                <div class="contact-grid">
+                    <h4>{phones}</h4>
+                    <p class="phone">(01).341.420.80.60
+                        <span>(01).314.352.09.72</span>
+                </div>
+                <div class="contact-grid">
+                    <h4>{mails}</h4>                   
+                    <p class="message">
+                    </p>                           
+                    <p>
+                        contacto@solesgps.com         
+                    </p>                  
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        
+        <div class="fb-comments" data-href="http://solesgps.com" data-width="100%" data-numposts="5"></div>    
+        <form method="POST" action ="">
+            <div class="contact-form">
+                <h3>{write_us_now}</h3>
+                <div class="mes-fig">
+                    <span> </span>
+                </div>
+                <input type = "hidden" name = "pagina" value = "contacto">    
+                <input type="text" name="Nombre" placeholder="{name}" required=" ">
+                <input type="text" name="Correo" placeholder="{email}" required=" ">
+                <input type="text" name="Asunto" placeholder="{subject}" required=" ">
+                <div class="clearfix"> </div>
+                <textarea name="Mensaje" placeholder="{message}" required=" "></textarea>
+                <input id = "send" type="submit" value="{send}">
+                <input type = "hidden" name = "sendFlag" value = "1">     
+            </div>
+        </form>
+        
+
+         <div class="footer">
+            <div class="footer-left">
+                <ul>
+                    <li><p>Soluciones Satelitales | {foot_1},  <span>{foot_2}.</span></p></li>
+
+                </ul>
+            </div>
+            <div class="footer-right">
+                <p>Manzanillo, Colima</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id = "confirm" class = "confirm" title="Mensaje Enviado">
+    <table>
+        <tr>
+            <td>
+                {confirm_send}
+            </td>
+            <td>
+                <img src="../modulos/webContact/img/mailOk.png" alt=" " width = "80px" heigth = "80px" />
+            </td>
+        </tr>
+    </table>	
+</div>
+
+
+

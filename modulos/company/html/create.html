@@ -1,0 +1,78 @@
+{tipo_company}
+<div class="mainTable">    
+             <table border="0" width="100%">
+                <tr>
+                    <td width="33%" rowspan="3" align="center">{img_files_id}</td>                        
+                    <td height="20" colspan="2">{nombre}</td>
+                    <td width="40">{cliente}</td>        
+                    <td width="40">{proveedor}</td>
+                </tr>          
+                <tr>
+                	<td height="20">{estatus}</td>        
+                    <td width="17%">{telefono}</td>        
+                    <td width="40">{sms}</td>        
+                    <td width="40">{whatsapp}</td>                    
+                </tr>          
+                <tr>
+                	<td colspan="4"></td>        
+                </tr>          
+
+            </table> 
+
+			<div id="tabs" class="form">
+				<ul>
+					<li  class="form"><a href="#tabs-1">Contacto</a></li>
+					<li  class="form"><a href="#tabs-2">Datos Fiscales</a></li>
+					<li  class="form"><a href="#tabs-3">Configuracion</a></li>
+					<li  class="form"><a href="#tabs-4">Empleados</a></li>
+				</ul>
+				<div id="tabs-1" class="form">
+					<table border="0">
+				        <tr>
+				            <td width="33%">{email}</td>         
+				            <td width="17%">{telefono_contacto}</td>
+				            <td width="16%">{extension}</td>                            
+				            
+				            <td width="16%"></td>
+				        </tr>          
+					</table> 
+				</div>
+				<div id="tabs-2"  class="form">
+				    <table border="0" width="100%">
+				        <tr>
+				            <td width="33%">{RFC} </td>                        
+				            <td colspan="2">{razonSocial}</td>        
+				                    					
+				        </tr>          
+				        <tr>                        
+				             <td colspan="2">{domicilio_fiscal}</td>                
+				        </tr>          
+				    </table>
+				</div>
+				<div id="tabs-3"  class="form">
+				    <table border="0" width="100%">
+				        <tr>
+				            <td width="33%">{web} </td>                        
+				            <td >{sistema_web}</td>        
+				            <td >{chat_whatsapp}</td>
+				        </tr>          
+				        <tr>                        
+				        	<td>{files_id}</td>                        
+				        	<td colspan="2">{lema}</td>
+				            
+				        </tr>            
+				    </table>
+				</div>
+				<div id="tabs-4"  class="form">
+					{trabajador_ids}
+				</div>
+
+			</div>
+			
+</div>            
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>        
+

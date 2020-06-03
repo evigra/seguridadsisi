@@ -1,0 +1,27 @@
+.confirm
+{
+	display: none;
+	color:			red;
+	font-family:	Verdana,Arial,sans-serif;
+    font-size: 		.2em;
+}
+
+.ui-widget-header {
+    background: #020067;
+    border: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ui-dialog 
+{
+	background: 	#CEECF5;
+	font-family:	Verdana,Arial,sans-serif;
+    font-size: 		.8em;
+}	
+
+.ui-widget-content {
+    /*background: #F9F9F9;*/
+    border: 2px solid #06FFEB;
+    color: #07048C;
+}

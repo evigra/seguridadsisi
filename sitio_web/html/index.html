@@ -1,0 +1,64 @@
+<html lang="es-ES">
+    <head>
+    	<title>{html_head_title}</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="{html_head_description}" />
+        <meta name="keywords" content="{html_head_keywords}" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="../sitio_web/css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="../sitio_web/css/jquery-ui-1.10.3.custom.css">        
+
+        {html_head_css}
+
+		<link rel="stylesheet" media="all" type="text/css" href="../sitio_web/css/jquery-ui-timepicker-addon.css" />
+		
+
+		<script type="text/javascript" src="../sitio_web/js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="../sitio_web/js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../sitio_web/js/jquery-ui-timepicker-addon.js"></script>
+
+        {html_head_js}
+        
+        <script src="../sitio_web/js/index.js"></script>
+        
+    </head>
+    <body class="color3" style="margin:0px; padding:0px;">
+        <!--
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '1759620497626721',
+              cookie     : true,
+              xfbml      : true,
+              version    : 'v7.0'
+            });              
+            FB.AppEvents.logPageView();   
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "https://connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
+        -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0&appId=1759620497626721&autoLogAppEvents=1"></script>    
+		<form action="" method="POST" enctype="multipart/form-data">	
+			{system_message}
+			{system_template}  
+		    <div id="message"></div>				
+		</form>
+		<script id="script" type="text/javascript">
+			$(document).ready(function()
+			{
+				{system_js}
+			});	
+		</script>		
+		<div id="script"></div>				
+    </body>    
+</html>
