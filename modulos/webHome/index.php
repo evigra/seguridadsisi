@@ -3,8 +3,8 @@
 	$objeto										=new webHome();
 	
 	$objeto->words["companyHome"]                  ="Aun en las circunstancias adversas hay que tener esperanza y fe. FE en lo que somos capaces de hacer y ESPERANZA en que llegado el momento lo haremos sin titubear";
-	$objeto->words["companyMision"]                ="Salvaguardar los derechos de los trabajadores del instituto mexicano del seguro social de la sección XXV colima, contribuyendo a las mejoras laborales de nuestro estado.";
-	$objeto->words["companyVision"]                ="Ser un equipo ejecutivo con capacidad de servir y escuchar a cada uno de los trabajadores dando respuesta pronta a cada una de sus necesidades laborales.";
+	$objeto->words["companyMision"]                ="Proporcionar diferentes alternativas y un nuevo concepto  de capacitación en seguridad e higiene industrial, para satisfacer las diferentes necesidades de nuestros clientes, basados en la mejora continua para obtener lealtad en nuestros clientes.";
+	$objeto->words["companyVision"]                ="Ser lideres en la capacitación y consultoría en seguridad industrial y medio ambiente";
 	$objeto->words["companyContact"]               ="<b>LLamanos Aqui </b><br>312 129 0333<br>314 352 0972<br><br><b>Escribenos Aqui</b>contacto@raul.com<br>";
 	
 	$objeto->words["system_module"]             =$objeto->__VIEW_SHOW();
