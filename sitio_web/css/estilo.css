@@ -128,7 +128,7 @@ div h1{
 div h1 span{
     display:                block; 
 	font-weight:            1000;
-	color:				    SteelBlue; 
+	color:				    #CE7D35; 
 }
 div p{
     padding-top:		    15px; 
@@ -155,6 +155,16 @@ div p{
 	color:                  #CE7D35;
 	transition:             all .15s;
 }
+
+.menu > li > a > font{
+	color:                  #CE7D35;
+}
+.menu > li a > font:hover{
+	color:                  #CE7D35;
+}
+
+
+
 /*################### Submenu ##############*/
 .submenu{
 	position:               absolute;

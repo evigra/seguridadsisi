@@ -560,7 +560,7 @@
 				}
 				
 				$menu_html="				
-					<li><a href=\"#\"><font size=\"4\" style=\"color:SteelBlue;\"><b> {$menu_principal}</b></font></a>
+					<li><a href=\"#\"><font size=\"4\"> <b> {$menu_principal}</b></font></a>
                         $menu_html
 					</li>					
 					<li>&nbsp; &nbsp; &nbsp; &nbsp; </li>					
